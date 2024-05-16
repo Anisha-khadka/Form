@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-image: linear-gradient(to right, #ffd8f1, #cca5be);
+}
+form {
+  margin: 50px 480px;
+  flex-direction: column;
+  padding: 40px;
+  background-color: white;
+  width: fit-content;
+  box-shadow: 4px 4px 4px rgb(238, 176, 186);
+  color: #ac4285;
+}
+form div {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-top: 10px;
+}
+
+form input {
+  padding: 8px 25px;
+  border: 1px solid pink;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+
+textarea{
+    margin-top: 20px;
+    border:1px solid #da67af;
+    padding: 4px;
+}
+
+button{
+    padding:8px 25px;
+    border-radius: 5px;
+    background-color: #ac4285;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  form {
+    margin: 50px 50px;
+  }
+}

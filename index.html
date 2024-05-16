@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form onsubmit= submitForm(event) id="myForm">
+      <h1>Please Fill the form</h1>
+      <div>
+        <div>
+          <input type="text" id="fname" placeholder="FirstName" /><br />
+        </div>
+        <div><input type="text" id="lname" placeholder="LastName" /><br /></div>
+        <div><input type="email" id="email" placeholder="Email" /><br /></div>
+        <div>
+          <input type="number" id="number" placeholder="Phone number" />
+        </div>
+      </div>
+      <label>Gender</label><br />
+      <input type="radio" id="male" name="gender" />
+      <label>Male</label>
+      <input type="radio" id="female" name="gender" />
+      <label>Female</label><br />
+      <textarea
+      id="inputtext"
+        rows="10"
+        placeholder=" Message........."
+        cols="60"
+        style="resize: none"
+      ></textarea><br/>
+      <button type="submit" value="Submit">Submit</button>
+    </form>
+    <script src="./script.js"></script>
+  </body>
+</html>
